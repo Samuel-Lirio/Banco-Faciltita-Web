@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Facilita</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Tela 1 -->
+    <div class="screen">
+        <div class="header"></div>
+        <div class="subheader"></div>
+        <div class="container">
+            <div class="profile-photo">
+                <span>Foto de perfil</span>
+            </div>
+            <div class="info">
+                <p>Crie sua conta!</p>
+                <form>
+                    <div class="name-account">
+                        <label for="name-account" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="name-account" aria-describedby="emailHelp">
+                      </div>
+                      <div class="cpf">
+                        <label for="cpf-account" class="form-label">CPF</label>
+                        <input type="number" class="form-control" id="cpf-account" aria-describedby="cpfhelp">
+                        <div id="cpfhelp" class="form-text">Nós nunca iremos compartilhar seu CPF com alguém.</div>
+                      </div>
+                    <div class="email">
+                      <label for="email-account" class="form-label">Endereço de Email</label>
+                      <input type="email" class="form-control" id="email-account" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">Nós nunca iremos compartilhar seu email com alguém.</div>
+                    </div>
+                    <div class="inputpassword">
+                      <label for="InputPassword" class="form-label">Senha</label>
+                      <input type="password" class="form-control" id="InputPassword">
+                    </div>
+                    <div class="checkme">
+                      <input type="checkbox" class="form-check-input" id="check1">
+                      <label class="form-check-label" for="check1">Lembre minha senha</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
+            </div>
+        </div>  
+    </div>
+    <div class="footer"></div>
+    <!-- Tela 2 -->
+    <div class="screen">
+        <div class="header"></div>
+        <div class="subheader"></div>
+        <div class="container">
+            <div class="top-bar">
+                <span class="country-flag">🇧🇷</span>
+                <h1>Conta Digital</h1>
+                <span class="profile-photo-small">Foto de perfil</span>
+            </div>
+            <div class="account-info">
+                <h1>R$ 0.00</h1>
+                <div class="buttons">
+                    <button type="button" class="btn btn-outline-success" id="pix">❖Pix</button>
+                    <button type="button" class="btn btn-outline-info"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bank" viewBox="0 0 16 16">
+                        <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.5.5 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89zM3.777 3h8.447L8 1zM2 6v7h1V6zm2 0v7h2.5V6zm3.5 0v7h1V6zm2 0v7H12V6zM13 6v7h1V6zm2-1V4H1v1zm-.39 9H1.39l-.25 1h13.72z"/>
+                      </svg> Pagar</button>
+                    <button type="button" class="btn btn-outline-warning"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                      </svg> Cartões</button>
+                </div>
+            </div>
+            <div class="investments">
+                <button type="button" class="btn btn-secondary btn-lg"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5"/>
+                  </svg> Investimentos</button>
+            </div>
+            <div class="services">
+                <div class="service"><span>💰</span>Poupança</div>
+                <div class="service"><span>🎁</span>Gift Card</div>
+                <div class="service"><span>📱</span>Recarga</div>
+                <div class="service"><span>...</span>Mostrar mais</div>
+            </div>
+            <div class="stock-info">
+                <h3>Mais negociadas</h3>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-success" type="button">ITUB 4 R$ 32,15 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+                        <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0"/>
+                      </svg> 1.97%</button>
+                    <button class="btn btn-success" type="button">PETR4 R$ 62,85 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+                        <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0"/>
+                      </svg> 1.87%</button>
+                    <button class="btn btn-danger" type="button">VALE3 R$ 41,49 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-square-fill" viewBox="0 0 16 16">
+                        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0"/>
+                      </svg> 1.97%</button>
+                  </div>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+
+    <!-- Tela 3 -->
+    <div class="screen">
+        <div class="header"></div>
+        <div class="subheader"></div>
+        <div class="container">
+            <h1>Investimentos Brasil</h1>
+            <div class="investment-options">
+                <div class="opportunities">
+                    <h3>Oportunidades</h3>
+                    <div class="opportunity">
+                        <div class="card" id="card">
+                            <img src="./assets/images/red.png" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title">Infraestrutura</h5>
+                              <p class="card-text">Renda mensal isenta</p><span class="h1">Renda 15% a.a</span>
+                              <a class="btn btn-danger">Risco Alto</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="opportunity">
+                        <div class="card">
+                            <img src="./assets/images/red.png" class="card-img-top">
+                          <div class="card-body">
+                              <h5 class="card-title">Logistica</h5>
+                              <p class="card-text">Renda mensal isenta</p><span class="h1">Renda 10% a.a</span>
+                              <a class="btn btn-danger">Risco Alto</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="opportunity">
+                        <div class="card">
+                            <img src="./assets/images/red.png" class="card-img-top">
+                          <div class="card-body">
+                              <h5 class="card-title">Aluguéis</h5>
+                              <p class="card-text">Renda mensal isenta</p><span class="h1">Renda 9% a.a</span>
+                              <a class="btn btn-danger">Risco Alto</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="highlights">
+                    <h3>Destaques</h3>
+                    <div class="highlight">
+                        <div class="card">
+                            <img src="./assets/images/green.png" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title">Renda Fixa</h5>
+                              <p class="card-text">Liquidez diária</p><span class="h1">LCA ABC LIQ</span>
+                              <a class="btn btn-success">Risco Baixo</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="highlight">
+                        <div class="card">
+                            <img src="./assets/images/red.png" class="card-img-top">
+                          
+                            <div class="card-body">
+                              <h5 class="card-title">CDB NEON</h5>
+                              <p class="card-text">Liquidez em 10/2024</p><span class="h1">117,5 do CDI</span>
+                              <a class="btn btn-danger">Risco Alto</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="highlight">
+                        <div class="card">
+                            <img src="./assets/images/green.png" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title">Renda Fixa</h5>
+                              <p class="card-text">Liquidez em 120 dias</p><span class="h1">CDB Mercado Livre</span>
+                              <a class="btn btn-success">Risco Baixo</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="investment-details">
+                <div class="account-balance">
+                    <span>Saldo em conta R$ 0.00</span>
+                </div>
+            <div class="investment-info">
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-danger" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    BANCO ABC BRASIL S.A.
+                    </a>
+                  </p>
+                  <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                    LCA ABC LIQUIDEZ DIÁRIA
+                    86% do CDI
+                    Equivale a um CDB de até 104,24% do CDI
+                    Inv. mínimo R$ 1.000
+                    Vencimento 02/06/2025
+                    Resgate Antecipado Ativo
+                    </div>
+                  </div>    
+                    </div>
+                <div class="investment-input">
+                    <h3>Quanto você quer investir?</h3>
+                    <span>R$</span><input type="number" id="investment-input" placeholder="0.00"><button type="submit" class="btn btn-primary">Enviar</button>
+                    <p>Importante: O valor deve ser múltiplo do preço unitário (1,01117618)</p>
+                    
+                </div>
+                <button class="learn-more">Saiba mais</button>
+            </div>
+        </div>
+        <div class="subheader"></div>
+        <div class="header"></div>
+    </div>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
